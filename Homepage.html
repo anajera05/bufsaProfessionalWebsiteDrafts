@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUFSA Professional Network</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+        }
+        .header {
+            display: flex;
+            padding: 10px;
+            align-items: center;
+        }
+        .pic {
+            width: 150px;
+            height: 150px;
+        }
+        .title {
+            margin-left: 20px;
+            flex-grow: 1;
+        }
+        .title h1 {
+            font-size: 30px;
+            margin: 0;
+        }
+        .title h2 {
+            font-size: 20px;
+            margin: 0;
+        }
+        .top-buttons {
+            display: flex;
+            flex-direction: column;
+            margin-right: 100px;
+        }
+        .top-button {
+            background-color: #b8dbd9;
+            padding: 10px 30px;
+            width: 260px;
+            text-align: center;
+            margin: 20px 0;
+            cursor: pointer;
+            color: #2f4550;
+            font-size: 25px;
+            border: none;
+            border-radius: 5px;
+        }
+        .nav-bar {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        .nav-bar-item {
+            padding-left: 50px;
+            cursor: pointer;
+            font-size: 30px;
+            color: #2f4550;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img class="pic" src="pics/BUFSALogo.png" alt="BUFSA Logo">
+        <div class="title">
+            <h1>BUFSA</h1>
+            <h2>Professional</h2>
+            <h2>Network</h2>
+        </div>
+        <div class="top-buttons">
+            <button class="top-button" onclick="alert('Join The Network clicked!')">Join The Network</button>
+            <button class="top-button" onclick="alert('Get Updates clicked!')">Get Updates</button>
+        </div>
+    </div>
+    <div class="nav-bar">
+        <div class="nav-bar-item" onclick="alert('Connect w/ Boofs clicked!')">Connect w/ Boofs</div>
+        <div class="nav-bar-item" onclick="alert('Get Involved clicked!')">Get Involved</div>
+        <div class="nav-bar-item" onclick="alert('Resources clicked!')">Resources</div>
+        <div class="nav-bar-item" onclick="alert('About Us clicked!')">About Us</div>
+    </div>
+</body>
+</html>
